@@ -1,0 +1,27 @@
+
+.QButton {
+  padding: 24px 48px;
+  border: 1px solid;
+  color: white;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.QButton:hover {
+  color: black;
+  background-color: white;
+}
+.QButton .title {
+  font-size: 36pt;
+}
+.QButton .subtitle {
+  font-size: 18pt;
+  color: silver;
+}
+.QButton:hover .subtitle {
+  color: gray;
+}
+.QButton:active .title,
+.QButton:active .subtitle {
+  position: relative;
+  top: 2px;
+}

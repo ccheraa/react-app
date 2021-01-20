@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+import BTN from './QButton';
 import './App.css';
 
-function App() {
+export function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <BTN text="Qaidari" second="I am dog" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
